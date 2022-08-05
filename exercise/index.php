@@ -18,7 +18,7 @@
 		echo "\nExample Command:\n";
 		echo "php <file  name> <person code> <first name> <family name> <gender> <birth date>\n";
 	}
-	else if ($argc == 7)
+	else if ($argc == 6)
 	{
 		$printData =  "php" . " " . $fileName . " " . $personCode . " " . $firstName . " " . $familyName . " " . $gender . " " . $birthDate;
 
